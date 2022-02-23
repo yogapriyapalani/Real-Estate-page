@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Real Estate Home</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link href="css/property-styles.css" type="text/css" rel="Stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="flex container">
+        <a id="logo" href="#">Real Estate Home</a>
+        <nav>
+          <button id="nav-toggle" class="hamburger-menu">
+            <span class="strip"></span>
+            <span class="strip"></span>
+            <span class="strip"></span>
+          </button>
+
+          <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">Menu</a></li>
+
+            
+            <li><a href="#">Contact</a></li>
+            <li id="close-flyout"><span class="fas fa-times"></span></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="main-property">
+      <div id="property-details" class="flex container">
+        <div class="address-container flex">
+          <div class="home-icon">
+            <span class="fa fa-home"></span>
+          </div>
+          <div>
+
+            <small class="status"><span class="for-sale"></span> For Sale</small>
+          </div>
+          <small class="year-built-sm">Built: 1999 - Listed On Real Estate Home: 9 days</small>
+        </div>
+
+
+        <div class="actions-container flex">
+          <div class="favorite">
+            <button><span class="fa fa-whatsapp"></span></button>
+            <small>Whatsapp</small>
+          </div>
+          <div class="share">
+            <button><span class="fa fa-share"></span></button>
+            <small>Share</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start: image slider -->
+      <div id="property-image-slider" class="slick">
+        <div>
+          <img src="images/property-img-1.jpg" alt="Property Image 1" />
+        </div>
+        <div>
+          <img src="images/property-img-2.jpg" alt="Property Image 2" />
+        </div>
+        <div>
+          <img src="images/property-img-3.jpg" alt="Property Image 3" />
+        </div>
+        <div>
+          <img src="images/property-img-4.jpg" alt="Property Image 4" />
+        </div>
+        <div>
+          <img src="images/property-img-5.jpg" alt="Property Image 5" />
+        </div>
+        <div>
+          <img src="images/property-img-6.jpg" alt="Property Image 6" />
+        </div>
+        <div>
+          <img src="images/property-img-7.jpg" alt="Property Image 7" />
+        </div>
+        <div>
+          <img src="images/property-img-8.jpg" alt="Property Image 8" />
+        </div>
+        <div>
+          <img src="images/property-img-9.jpg" alt="Property Image 9" />
+        </div>
+      </div>
+      <!-- End: image slider -->
+
+      <!-- Start: map -->
+      <div id="map"></div>
+      <!-- End: map -->
+
+      <!-- Start: street view -->
+      <div id="street"></div>
+      <!-- End: street view -->
+
+      <div class="slider-options-container flex">
+        <a id="image-view" href="javascript:;">
+          <div class="image-fade"><span>Galary Photos</span></div>
+          <img src="images/image-view.jpg" alt="Show Images" />
+        </a>
+
+        <a id="map-view" href="javascript:;">
+          <div class="image-fade"><span>Map</span></div>
+          <img src="images/map-view.jpg" alt="Show Map View" />
+        </a>
+
+        <a id="street-view" href="javascript:;">
+          <div class="image-fade"><span>Slidshow</span></div>
+          <img src="images/street-view.jpg" alt="Show Street View" />
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <section id="property-description">
+    
+        
+        
+  
+
+   
+  </section>
+
+  
+
+  
+      
+      
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+
+      <div id="form-container">
+        <h3>Contact the Listing Agent</h3>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" />
+
+          <label for="message">Message</label>
+          <textarea id="message">I'm interested in purchasing Real Estate Home</textarea>
+
+          <button class="rounded">Contact Agent</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="flex container">
+      <div class="footer-about">
+        <h5>About Home.</h5>
+        <p> Good property .</p>
+      </div>
+
+      <div class="footer-quick-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-subscribe">
+        <h5>Subscribe to our Property</h5>
+        <div id="subscribe-container">
+          <input type="text" placeholder="Enter Email" />
+          <button class="right-rounded">Send</button>
+        </div>
+
+        <h5 class="follow-us">Follow Us</h5>
+        <ul>
+          <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+          <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+          <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+          <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <small>
+      Copyright &copy; 2022 All rights reserved | Real Estate Home.
+    </small>
+  </footer>
+</body>
+
+<script src="js/script.js"></script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=<Your API Key Here>&callback=initMap"></script>
+</html>
